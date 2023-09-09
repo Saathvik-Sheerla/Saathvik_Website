@@ -9,7 +9,7 @@ st.image('Saathvik cv.png')
 
 
 contact_form = """
-<form action="https://formsubmit.co/shravyarinky29@gmail.com" method="POST">
+<form action="https://formsubmit.co/saathvik.sheerla@gmail.com" method="POST">
 <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="your name" required>
      <input type="email" name="email" placeholder="your em@il" required>
