@@ -3,7 +3,7 @@ from PIL import Image
 
 
 st.title("Saathvik's Resume")
-st.image('Saathvik's cv.png')
+st.image('Saathvik cv.png')
 
 
 
