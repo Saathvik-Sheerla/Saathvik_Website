@@ -18,9 +18,59 @@ body {
     padding: 20px;
 }
 
-.skillsNprojects{
+.skillsNprojects {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+}
+
+.skills{
+    margin-left: 79px;
+}
+
+.projects{
+    margin-left: 288px;
+}
+
+.tinygames{
+    margin-bottom: 25px;
+}
+
+.tinygamesDesc{
+    margin: 10px 0px 0px 10px;
+    font-size: small;
+}
+
+.aestheticshotsDesc{
+    margin: 10px 0px 0px 10px;
+    font-size: small;
+}
+
+.courseDesc {
+    margin: 10px 0px 0px 10px;
+    font-size: small;
+}
+
+.eduDesc {
+    margin: 10px 0px 0px 20px;
+    font-size: small;
+}
+
+.tinygamesDesc li{
+    list-style-type: circle;
+}
+
+.aestheticshotsDesc li{
+    list-style-type: circle;
+}
+
+.linksDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.educationNcourses {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Header section */
@@ -45,6 +95,7 @@ a {
 
 a:hover {
     color: #355C7D;
+    text-decoration: underline;
 }
 
 /* Main heading */
@@ -62,12 +113,16 @@ a:hover {
 
 /* Skills, education, courses, and links sections */
 .skills, .education, .courses, .links {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-.skills h3, .education h3, .courses h3, .links h3 {
-    margin-bottom: 10px;
+.skills h3, .education h3, .courses h3, .links h3 , .projects h3{
+    margin-bottom: 25px;
     text-decoration: underline;
+}
+
+.skills ul li{
+    margin: 10px;
 }
 
 .list, ul {
